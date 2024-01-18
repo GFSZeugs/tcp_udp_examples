@@ -5,7 +5,7 @@ if len(sys.argv) != 2:
     print("usage: server.py <port>")
     sys.exit(1)
 
-IP = "127.0.0.1"
+IP = "0.0.0.0"
 PORT = int(sys.argv[1])
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
