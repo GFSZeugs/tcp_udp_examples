@@ -9,7 +9,7 @@ PORT = int(sys.argv[1])
 
 app = Flask(__name__)
 
-app.route("/")
+@app.route("/")
 def root():
     return """
 <!DOCTYPE html>
